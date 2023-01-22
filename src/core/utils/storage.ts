@@ -94,7 +94,6 @@ function uploadFileToS3(key: string, filePath: string, logger: Logger): Promise<
                 {
                     Key: key,
                     Body: data,
-                    ACL: 'public-read',
                     Bucket: _.get(config, 's3.bucketName'),
                 },
                 (error: Error) => {
