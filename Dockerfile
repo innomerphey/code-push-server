@@ -2,7 +2,7 @@ FROM node:lts-alpine
 
 ARG VERSION latest
 
-RUN npm install -g @shm-open/code-push-server@${VERSION} pm2@latest --no-optional
+RUN npm install -g @shd-open/code-push-server@${VERSION} pm2@latest --no-optional
 
 RUN mkdir /data/
 

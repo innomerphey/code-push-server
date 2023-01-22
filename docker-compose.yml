@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   server:
-    image: shmopen/code-push-server:latest
+    image: shdhub/code-push-server:latest
     volumes:
       - data-storage:/data/storage
       - data-tmp:/data/tmp
